@@ -19,6 +19,9 @@
   @extend .btn;
   background-color: #5765f2;
   border-radius: 16px;
+  &:hover {
+    animation: none;
+  }
 }
 
 @keyframes fade {

@@ -3,10 +3,10 @@ import "./btn.scss";
 const Btn = (props) => {
   return (
     <div
-      className={props.value.status ? "btn-select" : "btn"}
+      className={props?.value?.status ? "btn-select" : "btn"}
       onClick={props.onClick}
     >
-      {props.value.name}
+      {props.value?.name}
     </div>
   );
 };

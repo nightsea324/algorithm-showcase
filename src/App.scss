@@ -21,41 +21,6 @@
   background-color: #2c3e50;
 }
 
-/* Discord Blue */
-.discord-blue {
-  color: #7289da;
-}
-
-/* Discord Light Grey */
-.discord-light-grey {
-  color: #99aab5;
-}
-
-/* Discord Dark Grey */
-.discord-dark-grey {
-  color: #2c2f33;
-}
-
-/* Discord White */
-.discord-white {
-  color: #fff;
-}
-
-/* Discord Green */
-.discord-green {
-  color: #43b581;
-}
-
-/* Discord Yellow */
-.discord-yellow {
-  color: #faa61a;
-}
-
-/* Discord Red */
-.discord-red {
-  color: #f04747;
-}
-
 .root {
   display: flex;
   flex-direction: row;
@@ -67,7 +32,36 @@
   min-width: 240px;
   height: 100%;
   background-color: #2f3136;
-  padding-top: 100px;
+  // padding-top: 100px;
+}
+
+.logo-container {
+  padding: 10px;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 42px;
+    background: #000;
+
+    .title {
+      height: 100%;
+      color: #fff;
+      padding: 0.1em;
+    }
+
+    .sub-title {
+      height: 100%;
+      color: #000;
+      background: #fe9900;
+      border-radius: 8px;
+      padding: 0.1em;
+    }
+  }
 }
 
 .title {
