@@ -1,0 +1,13 @@
+.input {
+  width: 144px;
+  height: 48px;
+  border-radius: 16px;
+  background-color: #40444b;
+  border: none;
+  color: #fff;
+  padding: 0.8em;
+  font-size: 100%;
+  &:focus {
+    outline: none;
+  }
+}

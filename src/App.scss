@@ -32,11 +32,11 @@
   min-width: 240px;
   height: 100%;
   background-color: #2f3136;
-  // padding-top: 100px;
 }
 
 .logo-container {
   padding: 10px;
+  font-family: Arial Bold;
   .logo {
     display: flex;
     flex-direction: row;
@@ -47,14 +47,15 @@
     font-weight: 900;
     font-size: 42px;
     background: #000;
+    border-radius: 8px;
 
-    .title {
+    .name {
       height: 100%;
       color: #fff;
       padding: 0.1em;
     }
 
-    .sub-title {
+    .sub-name {
       height: 100%;
       color: #000;
       background: #fe9900;
